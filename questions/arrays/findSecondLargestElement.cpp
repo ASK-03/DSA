@@ -8,7 +8,7 @@ using namespace std;
 There are many ways to find second largest element,
 - Sorting - O(NlogN)
 - Linear pass (2 times) - O(2*N)
-- (OPTIMIZED) Linear Pass Using 2 Variables - O(2*N)
+- (OPTIMIZED) Linear Pass Using 2 Variables - O(N)
 
 LINK : https://www.codingninjas.com/studio/problems/ninja-and-the-second-order-elements_6581960
 

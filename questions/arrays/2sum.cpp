@@ -15,7 +15,7 @@ using namespace std;
 
 /*
     BRUTE: 
-        This approach will to compute sum of all two numbers in the array and return the indexs
+        This approach will compute sum of all two numbers in the array and return the indexs
         of the elements whose sum add upto k
     TC - O(N^2)
     SC - O(1)

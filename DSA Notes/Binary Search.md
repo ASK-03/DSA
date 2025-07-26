@@ -1,0 +1,4 @@
+## [Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
+1. I was thinking in the direction of `find kth largest product in two arrays` but while solving I realized that it had only positive elements. In this question, it has negative and zero too. 
+2. So I was trying to form a logic while using heaps. but then I saw hints and it gave binary search. Then it clicked me that we can search between max product and min product and get the count of products `< p` and if it is `< k` we can move left pointer to `mid+1` and if `count is >= k` then we can save the `p` in `ans` variable and move `right` -> `mid-1`.
+3. Hard to know here if we have to use binary search.

@@ -1,3 +1,33 @@
+## [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)
+1. The constraints are low (1<=len<=16), so the recursion and memoization works.
+2. Problem arises when trying to optimize the for better space complexity and bottom up solution
+3. In normal bottom up solution, with vector<vector<>>
+
+```c++
+class Solution {
+public:
+    int countMaxOrSubsets(vector<int>& nums) {
+        unordered_map<int, int> dp;
+        dp[0] = 1;  // base case: empty subset has OR = 0
+
+        for (int num : nums) {
+            unordered_map<int, int> new_dp = dp;  // copy current state
+            for (auto& [or_val, count] : dp) {
+                new_dp[or_val | num] += count;
+            }
+            dp = move(new_dp);
+        }
+
+        // Find the maximum OR value
+        int max_or = 0;
+        for (int num : nums) max_or |= num;
+
+        return dp[max_or];
+    }
+};
+```
+
+This solution actually takes into account all the possible OR values that can be made using all the subsets.
 ## [Largest Divisible Subset](https://www.geeksforgeeks.org/problems/largest-divisible-subset--170643/1)
 1. I was able to code the backtracking solution, but changing that backtracking solution to optimal memoisation code was like changing the whole code.
 2. First define the recurrence, check the recurrence relation and then code the recursive solution.
@@ -42,3 +72,4 @@ public:
     }
 };   
 ```
+

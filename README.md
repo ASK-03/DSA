@@ -1,5 +1,7 @@
 # SDE Interview Prep Notes
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+
 Software engineering (SDE) interview preparation notes: **DSA patterns with C++ templates**, **Low-Level Design (LLD)**, **System Design**, and **CS fundamentals** (OS, DBMS, Computer Networks, OOP). Built for coding interviews at product companies and FAANG.
 
 ## Contents
@@ -19,3 +21,7 @@ Software engineering (SDE) interview preparation notes: **DSA patterns with C++ 
 This is a work in progress. Some sections, like HLD, are still sparse. I add notes as I study each concept, either written from my own reading or generated with Claude and then added here.
 
 See [CHANGELOG.md](CHANGELOG.md) for update history.
+
+## License
+
+[CC BY-NC-SA 4.0](LICENSE). You can share and adapt these notes for non-commercial use, as long as you credit this repo and share your version under the same license.

@@ -1,13 +1,13 @@
-# DSA
+# sde-interview-prep
 
-Personal DSA practice and revision repository. No build, no tests, no dependencies — this is notes and solved problems, not a codebase that runs.
+Personal end-to-end interview prep repository (DSA, LLD, System Design, CS fundamentals). No build, no tests, no dependencies — this is notes and solved problems, not a codebase that runs.
 
 ## Layout
 
 - `dsa-patterns/` — the main revision material. One file per topic/pattern (two-pointers, DP, graphs, etc.), all following a fixed 6-section format documented in `dsa-patterns/List of DSA Topics and Patterns.md`. Start there — it links to every other file.
 - `codes/` — solved implementations, organized by topic (Graphs, DisjointSet, heaps, SparseTable) plus loose files (recursion.cpp, sorting.cpp).
 - `questions-worth-a-revise/` — a shorter, curated list of problems flagged for repeat revision.
-- `Interview Prep/` — CS fundamentals and system design notes, separate from DSA pattern material.
+- `Interview Prep/` — CS fundamentals, System Design, and LLD (`Interview Prep/LLD/`, entry point `README.md`, format in `STYLE.md`), separate from DSA pattern material.
 - `Problem Solving Framework.md` — general approach notes for tackling a new problem.
 - `DSA-revision-guide.pdf` — reference PDF, not maintained here.
 

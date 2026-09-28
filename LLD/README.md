@@ -18,13 +18,14 @@ Linked topics have an article. Unlinked topics are on the list but not written y
 - Association · Aggregation · Composition · Dependency · Realization
 
 ## Design Principles
-- DRY · KISS · YAGNI · Law of Demeter
+- [DRY · KISS · YAGNI](Design%20Principles.md) · Law of Demeter
 - [Separation of Concerns](principles/separation-of-concerns.md)
 - [Coupling and Cohesion](principles/coupling-and-cohesion.md)
 - [Composing Objects Principle](principles/composing-objects-principle.md)
 - [Composition over Inheritance](principles/composition-over-inheritance.md)
 
 ## SOLID
+[Notes](Design%20Principles.md)
 - Single Responsibility · Open/Closed · Liskov Substitution · Interface Segregation · Dependency Inversion
 
 ## UML

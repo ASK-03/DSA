@@ -1,10 +1,11 @@
 # Changelog
 
 ## 28 September 2026
-1. Renamed repository to `sde-interview-prep`.
-2. Broadened scope from DSA-only to end-to-end interview prep.
-3. Added LLD section: study plan, style guide, principles, additional patterns, interview tips, and 40+ design question write-ups.
-4. Added graph representation notes and C++ implementation under `codes/Graphs/`.
+1. Restructured root into `DSA/`, `LLD/`, `HLD/`, and `CS Fundamentals/`; all code moved under `DSA/`.
+2. Renamed repository to `sde-interview-prep`.
+3. Broadened scope from DSA-only to end-to-end interview prep.
+4. Added LLD section: study plan, style guide, principles, additional patterns, interview tips, and 40+ design question write-ups.
+5. Added graph representation notes and C++ implementation under `codes/Graphs/`.
 
 ## 15 September 2026
 1. Rewrote `dsa-patterns/List of DSA Topics and Patterns.md` as the entry point — links to every pattern file, removed the ChatGPT share link, documented the standard note format.

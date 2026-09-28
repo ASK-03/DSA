@@ -166,3 +166,7 @@ See [mnemonics](design-pattern-mnemonics.md) for remembering all of them.
 - [In-Memory File System](questions/design-in-memory-file-system.md)
 - [Task Scheduler](questions/design-task-scheduler.md)
 - [Version Control System](questions/design-version-control-system.md)
+
+## Resources
+- [AlgoMaster LLD](https://algomaster.io/learn/lld)
+- [Refactoring Guru: Design Patterns](https://refactoring.guru/design-patterns)

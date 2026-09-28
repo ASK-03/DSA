@@ -1,24 +1,17 @@
-# DSA
+# SDE Interview Prep Notes
 
-## Changelog
+Software engineering (SDE) interview preparation notes: **DSA patterns with C++ templates**, **Low-Level Design (LLD)**, **System Design**, and **CS fundamentals** (OS, DBMS, Computer Networks, OOP). Built for coding interviews at product companies and FAANG.
 
-### 15 September 2026
-1. Rewrote `dsa-patterns/List of DSA Topics and Patterns.md` as the entry point — links to every pattern file, removed the ChatGPT share link, documented the standard note format.
-2. Standardized all 16 existing pattern files: removed emojis, dropped the repeated weekly-plan sections, fixed broken links, added missing Problem Links sections.
-3. Added 3 new pattern files: Arrays & Hashing, Sorting, Design Data Structures (LRU/LFU cache, etc.).
-4. Added missing algorithms: Rabin-Karp, palindrome expansion + Manacher's, binary lifting for LCA, modular arithmetic toolkit (add/sub/mul/div), core bit manipulation cheat sheet.
-5. Added `CLAUDE.md` at repo root for project context.
+## Contents
 
-### 09 September 2026
-1. Added Bellman-Ford, Floyd-Warshall, Prim's, Kruskal's, bridges, articulation points, and Kosaraju's algorithm notes to the Graphs revision doc.
+| Section | What's inside |
+|---|---|
+| [DSA Patterns](dsa-patterns/List%20of%20DSA%20Topics%20and%20Patterns.md) | Revision notes by topic and pattern: two pointers, sliding window, binary search, DP, graphs, trees, tries, and more |
+| [Code](codes/) | Solved C++ implementations: graphs, disjoint set, heaps, sparse table, recursion, sorting |
+| [Questions Worth a Revise](questions-worth-a-revise/) | Curated problems flagged for repeat revision |
+| [Low-Level Design](Interview%20Prep/LLD/README.md) | Design principles, patterns, interview tips, and 40+ LLD questions (parking lot, elevator, Splitwise, etc.) |
+| [System Design](Interview%20Prep/System%20Design/) | HLD/LLD framework and design principles |
+| [CS Fundamentals](Interview%20Prep/CS%20Fundamentals/) | OS, DBMS, Computer Networks, OOP |
+| [Problem Solving Framework](Problem%20Solving%20Framework.md) | How to approach a new problem |
 
-### 26 July 2025
-1. Added DSA Patterns (Highly Recommended!)
-2. Added Questions that are worth revising
-3. DSA Revision Guide (idk I havent read this whole but it is good to quickly look for codes)
-
-### 27 July 2023
-This repository contains all the questions and practice that I am doing to keep track of my growth in DSA.
-
-Following -
-1. [Strivers A2Z course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) (Completed)
+See [CHANGELOG.md](CHANGELOG.md) for update history.
